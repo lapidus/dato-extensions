@@ -15,7 +15,7 @@
 
       input.value = extension.getFieldValue(extension.fieldPath);
 
-      extension.addFieldChangeListener(extensions.fieldPath, function(newValue) {
+      extension.addFieldChangeListener(extension.fieldPath, function(newValue) {
         input.value = newValue;
       });
 
